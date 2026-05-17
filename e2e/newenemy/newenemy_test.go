@@ -1,4 +1,7 @@
-package newenemy
+cd e2e
+go get -d github.com/authzed/spicedb/cmd/spicedb/...
+go build github.com/authzed/spicedb/cmd/spicedb/...
+go mod tidypackage newenemy
 
 import (
 	"context"
